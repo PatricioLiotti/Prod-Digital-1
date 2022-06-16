@@ -7,13 +7,18 @@
 }
 
 .logo {
-	width: 220px;
-	height: 37px;
+	width: 270px;
+	height: 45px;
 	margin-top: 20px;
+}
+
+.icon {
+	display: none;
 }
 
 .divnavsuperior {
 	width: 100%;
+	padding-left: 20px;
 }
 
 .superior {
@@ -23,6 +28,8 @@
 
 .superior li {
 	display: inline;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .superior a {
@@ -31,13 +38,51 @@
 
 .superior a:hover {
 	background-color: lightgrey;
-	border-radius: 50%;
+	border-radius: 10px;
 	padding: 10px;
 }
 
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+}
+
+.submenu {
+	position: absolute;
+	display: none;
+}
+
+.submenu li a {
+	display: block;
+	text-decoration: underline;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+.menu li:hover .submenu {
+	display: block;
+	background-color: white;
+	width: 90%;
+	border-radius: 10px;
+	margin-top: 0px;
+}
+
 .hrhome {
-	width: 55%;
-	margin-left: 35rem;
+	width: 62%;
+	margin-left: 29rem;
+}
+
+.volveralinicio {
+	display: block;
+	padding-top: 25px;
+	margin-left: 0px;
+	font-size: 13px;
+}
+
+.volveralinicio i {
+	margin: 0px;
+	margin-right: 5px;
 }
 
 h1 {
@@ -63,30 +108,66 @@ h1 {
 
 .fotosfiesta p {
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
 #botonhome{
-	height: 60px;
-	width: 130px;
+	height: 50px;
+	width: 110px;
 	margin-left: 35rem;
-	font-size: 40px;
+	font-size: 37px;
+	font-family: Verdana, sans-serif;
+	color: black;
 	padding-right: 5px;
-	border-radius: 50%;
-	margin-top: 30px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 15px;
 	box-shadow: 1px 1px 5px 5px grey;
+}
+
+.phome {
+	font-size: 18px;
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+
+.phome p {
+	display: inline;
+}
+
+.link {
+	font-size: 16px;
+	color: blue;
+	text-decoration: underline;
+	display: inline;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+}
+
+.personajeshome {
+	height: 170px;
+	width: 130px;
+}
+
+.divpersonajeshome {
+	margin-left: 0px;
+}
+
+.divpersonajeshome p {
+padding-left: 20px;
 }
 
 footer {
 	background-color: #6B6969;
 	margin-top: 70px;
-	padding-bottom: 20px;
-	line-height: 35px;
+	padding-bottom: 10px;
+	line-height: 30px;
 }
 
 .inferior {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .inferior li {
@@ -97,6 +178,7 @@ footer {
 	color: white;
 	text-decoration: underline;
 	font-family: 'Arial';
+	font-size: 15px;
 }
 
 .divnavinferior {
@@ -113,13 +195,16 @@ footer {
 	height: 40px;
 	width: 40px;
 	color: white;
+	padding-bottom: 30px;
 }
 
 .politica {
 	text-align: center;
 	font-family: 'Arial';
 	color: white;
-	padding-top: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	display: block;
 }
 
@@ -136,11 +221,26 @@ footer {
 	margin-left: 40px;
 }
 
+.articlepersonajeshome {
+	display: flex;
+	justify-content: center;
+}
+
+.articlehome {
+	display: flex;
+	justify-content: center;
+}
+
 .cita {
 	font-size: 20px;
 	font-style: italic;
 	padding-left: 60px;
 	padding-bottom: 30px;
+}
+
+.articlegaleria {
+	display: flex;
+	justify-content: center;
 }
 
 .carruselpersonaje{
@@ -216,12 +316,14 @@ h4{
 }
 
 #botonresultado{
-	height: 70px;
-	width: 200px;
-	margin-left: 35rem;
-	font-size: 35px;
-	border-radius: 50%;
-	margin-top: 50px;
+	height: 55px;
+	width: 180px;
+	margin-left: 33rem;
+	font-size: 32px;
+	border-radius: 10px;
+	border: none;
+	font-family: Verdana, sans-serif;
+	margin-top: 30px;
 	box-shadow: 1px 1px 5px 5px grey;
 }
 .hrcheckbox{
@@ -231,7 +333,7 @@ h4{
 }
 
 h2 {
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 0px;
 	margin-bottom: 30px;
 	text-decoration: underline;
@@ -319,7 +421,8 @@ font-weight: bold;
 
 .linkazul {
 	color: blue;
-	font-family: calibri;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
 }
 
 .articleresultado {
@@ -329,7 +432,7 @@ font-weight: bold;
 	background-color: lightgrey;
 	width: 70%;
 	padding-bottom: 1.5rem;
-	border-radius: 10%;
+	border-radius: 20px;
 	box-shadow: 1px 1px 5px 5px grey;
 
 }
@@ -344,7 +447,7 @@ text-align: center;
 }
 
 .articleresultado img {
-	padding-top: 2rem;
+	padding-top: 3rem;
 }
 
 .divresultado {
@@ -369,4 +472,475 @@ text-align: center;
 	width: 40px;
 }
 
-.lb-loader,.lightbox{text-align:center;line-height:0;position:absolute;left:0}body.lb-disable-scrolling{overflow:hidden}.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.8;display:none}.lightbox{width:100%;z-index:10000;font-weight:400;outline:0}.lightbox .lb-image{display:block;height:auto;max-width:inherit;max-height:none;border-radius:3px;border:4px solid #fff}.lightbox a img{border:none}.lb-outerContainer{position:relative;width:250px;height:250px;margin:0 auto;border-radius:4px;background-color:#fff}.lb-outerContainer:after{content:"";display:table;clear:both}.lb-loader{top:43%;height:25%;width:100%}.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url(../images/loading.gif) no-repeat}.lb-nav{position:absolute;top:0;left:0;height:100%;width:100%;z-index:10}.lb-container>.nav{left:0}.lb-nav a{outline:0;background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}.lb-next,.lb-prev{height:100%;cursor:pointer;display:block}.lb-nav a.lb-prev{width:34%;left:0;float:left;background:url(../images/prev.png) left 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-prev:hover{filter:alpha(Opacity=100);opacity:1}.lb-nav a.lb-next{width:64%;right:0;float:right;background:url(../images/next.png) right 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-next:hover{filter:alpha(Opacity=100);opacity:1}.lb-dataContainer{margin:0 auto;padding-top:5px;width:100%;border-bottom-left-radius:4px;border-bottom-right-radius:4px}.lb-dataContainer:after{content:"";display:table;clear:both}.lb-data{padding:0 4px;color:#ccc}.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em}.lb-data .lb-caption{font-size:13px;font-weight:700;line-height:1em}.lb-data .lb-caption a{color:#4ae}.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999}.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
+input {
+	margin-bottom: 20px;
+}
+
+.articleformulario {
+display: flex;
+margin-top: 50px;
+margin-left: 70px;
+justify-content: center;
+}
+
+.divcontacto {
+	padding-top: 20px;
+}
+
+.divcontacto p {
+	display: inline;
+	font-size: 20px;
+	margin-left: 0px;
+}
+
+.divcontacto div {
+	padding-bottom: 27px;
+}
+
+.divcontacto img {
+	height: 30px;
+	width: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-bottom: 0px;
+}
+
+.divformulario {
+	width: 500px;
+}
+
+.divformulario input {
+	background-color: lightgrey;
+	border: none;
+	border-radius: 4px;
+	height: 30px;
+	width: 100%;
+	font-family: Verdana, sans-serif;
+	padding-left: 10px;
+}
+
+.form50 {
+	display: flex;
+	margin-right: 0px;
+}
+
+.form50 input {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.form50 label {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.iconosrrss2 {
+	height: 40px;
+	width: 40px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+textarea {
+	background-color: lightgrey;
+	border: none;
+	border-radius: 4px;
+	height: 30px;
+	width: 100%;
+	font-family: Verdana, sans-serif;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+}
+
+form button {
+	background-color: black;
+	border-radius: 4px;
+	border: none;
+	font-family: Verdana, sans-serif;
+	color: white;
+	height: 30px;
+	width: 80px;
+}
+
+
+@media screen and (max-width: 480px) {
+nav.superior ul {display: none;}
+.icon {display: inline;}
+* {margin-left: 10px;
+margin-right: 10px;}
+section {max-width: 480px;}
+
+header div, header a {
+	flex: 1 0 50%;
+}
+
+header nav {
+	flex-basis: 100%;
+}
+
+nav.responsive ul {
+display: block;
+width: 100%;
+}
+
+header {
+	margin-left: 0px;}
+
+header article {
+	display: flex;
+	margin-left: 0px;}
+
+.logo {
+	margin-left: 0px;
+	margin-top: 5px;
+	height: 35px;
+	width: 200;}
+
+.volveralinicio {
+	display: none;
+}
+
+.divhamburguesa {
+	display: inline;}
+
+i {
+	padding-top: 16px;
+	padding-left: 120px;}
+
+h1 {
+	margin-top: 50px;
+	font-size: 35px;}
+
+.articleformulario {display: block;
+width: 450px;
+margin-left: 0px;
+margin-top: 30px;}
+
+.divcontacto {width: 450px;
+margin-left: 30px;
+margin-bottom: 20px;}
+
+.divcontacto p {
+	font-size: 18px;}
+
+.iconosrrss2 {
+	height: 20px;
+	width: 20px;
+	margin-left: 15px;}
+
+.divformulario {width: 420px;
+	margin-left: 0px;}
+
+.divformulario form {
+	margin-left: 0px;}
+
+.divformulario form div {
+	margin-left: 0px;}
+
+.form50 label {
+	margin-left: 0px;}
+
+textarea {
+	padding-top: 10px;
+}
+
+	footer {
+		margin-top: 60px;
+		width: 450px;
+		margin-left: 0px;}
+
+.divnavinferior {
+	display: inline;}
+
+.divnavinferior li {
+	display: inline;
+	margin-left: 19px;
+	margin-right: 0px;}
+
+.divnavinferior li a {
+	font-size: 13px;}
+
+.diviconosrrss {
+	display: inline;
+	margin-left: 100px;}
+
+.iconosrrss {
+	height: 28px;
+	width: 28px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-bottom: 20px;}
+
+.politica {
+	font-size: 13px;}
+
+.headerinfo {margin-left: 10px;
+margin-bottom: 30px;
+font-size: 22px;}
+
+.divinfo {
+	margin-left: 0px;}
+
+.sectionhistoria br {display: none;}
+
+.headerinfo2{
+	margin-left: 0px;
+	font-size: 18px;
+}
+
+.sectionhistoria p {
+	margin-left: 0px;
+}
+
+#seriemaniacos {
+	margin-top: 50px;
+}
+
+.sectionhistoria a {
+	font-size: 12px;
+	margin-left: 0px;
+}
+
+.sectionhistoria p {
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+.articlehistoria {
+	margin-left: 0px;
+	display: inline-block;
+}
+
+.articleargumento1 {
+	width: 450px;
+}
+
+.articleargumento1 p {
+font-size: 14px;
+margin-bottom: 0px;
+}
+
+.divargumento {
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-left: 10px;
+margin-bottom: 30px;
+}
+
+.articleargumento2 {
+	width: 450px;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.articleargumento2 img {
+	height: 120px;
+	width: 190px;
+}
+
+.articleargumento2 p {
+	font-size: 13px;
+}
+.divfotoyepigrafe {
+	width: 45%;
+	margin-bottom: 5px;
+}
+#kiss {
+	margin-left: 85px;
+}
+
+#kiss img {
+	width: 220px;}
+
+.articlehome {
+	display: flex;
+	width: 435px;
+	margin-left: 0px;
+}
+
+.fotosfiesta {
+width: 450px;
+margin-left: 0px;
+margin-bottom: 15px;
+margin-right: 5px;
+}
+
+.fotosfiesta img {
+	width: 220px;
+	height: 160px;
+	margin-left: 0px;
+}
+
+.fotosfiesta p {
+	margin-left: 0px;
+	padding-right: 10px;
+	margin-top: 15px;
+	font-size: 22px;
+}
+
+.phome {
+	margin-top: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.phome p {
+	font-size: 16px;
+}
+
+.link {
+	display: block;
+	font-size: 13px;
+}
+
+.articlepersonajeshome {
+display: flex;
+width: 430px;
+margin: 0px;
+}
+
+.divpersonajeshome {
+	width: 200px;
+	display: inline-block;
+}
+
+#divpersonajesblock {
+	display: inline-block;
+}
+
+.articlequiz {
+	max-width: 460px;
+	margin-left: 0px;
+	margin-right: 40px;
+}
+.articlequiz div {
+	max-width: 200px;
+}
+.fotoscheckbox {
+	width: 250px;
+	height: 170px;
+	margin-left: 0px;
+	margin-top: 40px;
+}
+.casillas {
+	margin-left: 0px;
+	margin-right: 10px;
+	line-height: 25px;
+}
+.hrcheckbox {
+	width: 160px;
+}
+.articleresultado {
+	margin-left: 0px;
+	margin-top: 60px;
+	display: inline-block;
+	width: 430px;
+}
+
+.articleresultado p {
+	font-size: 15px;
+}
+.articleresultado img {
+	padding-top: 20px;
+	width: 390px;
+	height: 220px;
+}
+.divresultado {
+	padding-top: 0px;
+}
+
+.diviconosresultado {
+	display: inline;
+	margin-left: 75px;
+}
+.h3resultado {
+	margin-top: 60px;
+}
+
+.textodescripcion {
+	display: block;
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 415px;
+}
+
+.imagendescripcion img {
+height: 250px;
+width: 180px;
+}
+
+.imagendescripcion a {
+	margin-left: 0px;
+}
+
+.textodescripcion p {
+	font-size: 15px;
+}
+
+.textodescripcion h3 {
+	font-size: 19px;
+}
+
+.cita {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	font-size: 18px;
+}
+
+.articlegaleria {
+	width: 450px;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+.articlegaleria a {
+	margin-left: 5px;
+}
+
+.articlegaleria div {
+	margin: 0px;
+}
+
+.carruselpersonaje {
+	width: 130px;
+	height: 100px;
+	padding: 0px;
+}
+
+#botonresultado {
+	margin-left: 125px;
+	margin-top: 0px;
+	font-size: 27px;
+	width: 150px;
+	height: 50px;
+}
+
+#botonhome {
+	margin-left: 145px;
+	margin-bottom: 40px;
+	width: 120px;
+	height: 45px;
+	font-size: 30px;
+}
+
+.fotospersonajes {
+	height: 200px;
+	width: 140px;
+	margin: 0px;
+}
+.divpersonajes {
+	margin: 2px;
+}
+.textopersonajes {
+	font-size: 19px;
+	margin-left: 48px;
+}
+}
+
+
