@@ -1,7 +1,5 @@
 * {
 	padding: 0;
-	margin-left: 20px;
-	margin-right: 20px;
 	font-family: "Futura", sans-serif;
 	color: black;
 }
@@ -563,8 +561,6 @@ form button {
 @media screen and (max-width: 480px) {
 nav.superior ul {display: none;}
 .icon {display: inline;}
-* {margin-left: 5px;
-margin-right: 5px;}
 section {max-width: 480px;
 width: 100%;}
 
@@ -577,7 +573,7 @@ header nav {
 	flex-basis: 100%;
 }
 
-nav.responsive ul {
+nav.responsive ul.menu {
 display: block;
 width: 100%;
 }
@@ -586,7 +582,6 @@ header {
 	margin-left: 0px;}
 
 header article {
-	display: flex;
 	margin-left: 0px;}
 
 .logo {
