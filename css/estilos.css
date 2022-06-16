@@ -68,11 +68,6 @@
 	margin-top: 0px;
 }
 
-.hrhome {
-	width: 62%;
-	margin-left: 29rem;
-}
-
 .volveralinicio {
 	display: block;
 	padding-top: 25px;
@@ -570,7 +565,9 @@ nav.superior ul {display: none;}
 .icon {display: inline;}
 * {margin-left: 10px;
 margin-right: 10px;}
-section {max-width: 480px;}
+section {max-width: 480px;
+width: 100%;}
+
 
 header div, header a {
 	flex: 1 0 50%;
@@ -826,7 +823,9 @@ margin: 0px;
 	height: 170px;
 	margin-left: 0px;
 	margin-top: 40px;
+	padding-right: 0px;
 }
+
 .casillas {
 	margin-left: 0px;
 	margin-right: 10px;
