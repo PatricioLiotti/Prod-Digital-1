@@ -4,27 +4,46 @@
 	<title>index.html</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="shortcut icon" href="Imagenes/Friends_favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 	<header>
-		<div>
+		<article>
 		<img class="logo" src="Imagenes/Friends_logo_1.png">
+		<div class="divhamburguesa">
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i> </a>
+		<script src="https://kit.fontawesome.com/7c2ea71f7a.js" crossorigin="anonymous"></script>
 		</div>
+
 		<div class="divnavsuperior">
-		<nav class="superior">
-			<ul>
+		<nav class="superior" id="navegador">
+			<ul class="menu">
 			<li><a href="Quiz.html">Quiz</a></li>
 			<li><a href="Historia.html">Historia</a></li>
-			<li><a href="Personajes.html">Personajes</a></li>
-			<li><a href="Quiero saber mas.html">Quiero saber más</a></li>
+			<li><a href="Personajes.html"></a>Personajes<i class="fa-solid fa-caret-down"></i>
+				<ul class="submenu">
+					<li><a href="Ross.html">Ross</a></li>
+					<li><a href="Rachel.html">Rachel</a></li>
+					<li><a href="Monica.html">Monica</a></li>
+					<li><a href="Chandler.html">Chandler</a></li>
+					<li><a href="Joey.html">Joey</a></li>
+					<li><a href="Phoebe.html">Phoebe</a></li>
+				</ul>
+			</li>
+			<li><a href="Quiero_saber_mas.html">Quiero saber más</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-	</div>
 	<hr class="hrhome">
+	</div>
+	</article>
 		</header>
+
 	<section>
 		<h1>¿Qué Fiesta te tocará?</h1>
-		<article class="articleflex">
+		<article class="articlehome">
 			<div class="fotosfiesta">
 				<img src="Imagenes/Friends 13.jpg">
 				<p>Fiesta 1</p>
@@ -36,6 +55,40 @@
 		</article>
 		<a href="Quiz.html">
 			<button id="botonhome">Quiz</button></a>
+<div class="phome">
+	<p>"Friends" es una serie de tv que se emitió entre 1994 y 2004. Consta de 10 temporadas y 236 episodios. Narra las aventuras y desventuras de seis jóvenes de Nueva York: Rachel (Jennifer Aniston), Monica (Courteney Cox), Phoebe (Lisa Kudrow), Ross (David Schwimmer), Chandler (Matthew Perry) y Joey (Matt LeBlanc). Juntos forman una unida pandilla de amigos que viven en Manhattan y que suelen reunirse en sus apartamentos o en su bar habitual; el Central Perk. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.</p><a class=link href="Historia.html">Ver historia</a>
+</div>
+
+<h3>Personajes:</h3>
+
+<article class="articlepersonajeshome">
+	<div class="divpersonajeshome"><a href="Rachel.html">
+	<img class="personajeshome" src="Imagenes/rachel.jpg">
+	<p>Rachel</p></a></div>
+
+	<div class="divpersonajeshome" id="divpersonajesblock"><a href="Ross.html">
+	<img class="personajeshome" src="Imagenes/ross.jpeg">
+	<p>Ross</p></a></div>
+
+	<div class="divpersonajeshome" id="divpersonajesblock"><a href="Monica.html">
+	<img class="personajeshome" src="Imagenes/monica.jpeg">
+	<p>Monica</p></a></div>
+
+	<div class="divpersonajeshome" id="divpersonajesblock"><a href="Chandler.html">
+	<img class="personajeshome" src="Imagenes/chandler.jpg">
+	<p>Chandler</p></a></div>
+
+	<div class="divpersonajeshome"><a href="Phoebe.html">
+	<img class="personajeshome" src="Imagenes/phoebe.jpg">
+	<p>Phoebe</p></a></div>
+
+	<div class="divpersonajeshome"><a href="Joey.html">
+	<img class="personajeshome" src="Imagenes/joey.jpg">
+	<p>Joey</p></a></div>
+
+	
+</article>
+
 	</section>
 	<footer>
 		<div class="divnavinferior">
@@ -43,7 +96,8 @@
 			<ul>
 			<li><a href="Quiz.html">Quiz</a></li>
 			<li><a href="Historia.html">Historia</a></li>
-			<li><a href="Quiero saber mas.html">Quiero saber más</a></li>
+			<li><a href="Quiero_saber_mas.html">Quiero saber más</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
 		</ul>
 		</nav>
 	</div>
@@ -58,4 +112,14 @@
 		<p class="politica">Política de privacidad</p>
 	</footer>
 </body>
+<script type="text/javascript">
+	function myFunction(){
+		let x = document.getElementById('navegador')
+		if (x.className !== 'superior''responsive'){
+			x.className = 'responsive'}
+			else { 
+			x.className = 'superior';
+		}
+	}
+</script>
 </html>
