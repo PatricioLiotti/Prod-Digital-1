@@ -1,25 +1,48 @@
 <!DOCTYPE>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="shotcut icon" type="text/css" href="Imagenes/Friends_favicon.png">
+	<link rel="shortcut icon" href="Imagenes/Friends_favicon.png">
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Historia.html</title>
-	
 </head>
+
 <body>
 	<header>
+		<article>
 		<img class="logo" src="Imagenes/Friends_logo_1.png">
+		<a class="volveralinicio" href="index.html"><i class="fa-solid fa-arrow-left-long"></i>Volver al Inicio</a>
+		<div class="divhamburguesa">
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i> </a>
+		<script src="https://kit.fontawesome.com/7c2ea71f7a.js" crossorigin="anonymous"></script>
+		</div>
+
 		<div class="divnavsuperior">
 		<nav class="superior">
-			<ul>
+			<ul class="menu">
 			<li><a href="Quiz.html">Quiz</a></li>
 			<li><a href="Historia.html">Historia</a></li>
-			<li><a href="Personajes.html">Personajes</a></li>
-			<li><a href="Quiero saber mas.html">Quiero saber más</a></li>
+			<li><a href="Personajes.html"></a>Personajes<i class="fa-solid fa-caret-down"></i>
+			<ul class="submenu">
+					<li><a href="Ross.html">Ross</a></li>
+					<li><a href="Rachel.html">Rachel</a></li>
+					<li><a href="Monica.html">Monica</a></li>
+					<li><a href="Chandler.html">Chandler</a></li>
+					<li><a href="Joey.html">Joey</a></li>
+					<li><a href="Phoebe.html">Phoebe</a></li>
+				</ul>
+			</li>
+			<li><a href="Quiero_saber_mas.html">Quiero saber más</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
 		<hr class="hrhome">
 	</div>
+	</article>
 	</header>
 	
 	<section class="sectionhistoria">
@@ -43,10 +66,10 @@
 			<p class="pargumento">Dentro de todo, las dos fiestas se desarrollaban con normalidad. Cada una con sus formas. La de los chicos era una típica fiesta de secundaria, con cerveza, música fuerte, chicas, y una cancha de volley improvisada. Mientras que la de las chicas parecía una reunión de té de +50. Juegos de mesa aburridos y apreritivos elaborados. </p>
 			<p class="pargumento">Ante esto, Phoebe decide ayudar a que los invitados de esa fiesta, pase a la fiesta de los chicos. En secreto, sin que Mónica se entere. Aunque más tarde que temprano, ella se da cuenta. </p>
 		</div>
-		<div class="divargumento">
+		<div class="divargumento" id="argumentoancho">
 			<p class="pargumento">Ya casi finalizando las fiestas, Rachel, muy angustiada por la situación, se queda charlando con Chandler en el pasillo. Y recuerda cómo antes en los 4 de Julio, ella festejaba con su familia toda unida. Y que ahora está partida. Chandler, también hijo de padres divorciados, trata de darle ánimo, aunque sin mucho éxito.</p>
 		</div>
-		<div class="divargumento">
+		<div class="divargumento" id="argumentoancho">
 			<p class="pargumento">El capítulo termina cuando ambos padres se retiran, y nuevamente el grupo tiene que ingeniárselas para que ninguno se vea en la salida. Y a Joey no se le ocurre mejor idea que estamparle un largo beso a la mamá de Rachel. Bastante bien le funcionó, y hasta parece haberle gustado a ella.</p>
 			<p class="pargumento">Se cierra el telón con una pelota de volley arruinando un flan hecho por Mónica (a falta de una torta). Reflejando que al mal tiempo, buena cara.</p>
 		</div>
@@ -71,10 +94,10 @@
 
 		<div class="divfotoyepigrafe">
 		<a class="example-image-link" href="Imagenes/Friends 3.jpeg" data-lightbox="example-1"><img class="fotohistoria" src="Imagenes/Friends 3.jpeg"></a>
-		<p class="epigrafehistoria">"I'm gonna create a diversion. When I do, walk quickly to the door and don't look back."</p>
+		<p class="epigrafehistoria">"Walk quickly to the other room and don't look back."</p>
 		</div>
 
-		<div class="divfotoyepigrafe">
+		<div class="divfotoyepigrafe" id="kiss">
 		<a class="example-image-link" href="Imagenes/Friends 1.jpeg" data-lightbox="example-1"><img class="fotohistoria" src="Imagenes/Friends 1.jpeg"></a>
 		<p class="epigrafehistoria">"Thanks for coming Mrs. Greene." (kiss)</p>
 		</div>
@@ -89,16 +112,17 @@
 			<ul>
 			<li><a href="Quiz.html">Quiz</a></li>
 			<li><a href="Historia.html">Historia</a></li>
-			<li><a href="Quiero saber mas.html">Quiero saber más</a></li>
+			<li><a href="Quiero_saber_mas.html">Quiero saber más</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
 		</ul>
 		</nav>
-		</div>
+	</div>
 		<div class="diviconosrrss">
 			<a href="https://www.instagram.com/" target="blank">
 		<img class="iconosrrss" src="Imagenes/instagram.png"></a>
 		<a href="https://www.facebook.com/" target="blank">
 		<img class="iconosrrss" src="Imagenes/facebook.png"></a>
-		<a href="https://twitter.com/?lang=es" target="blank">
+		<a href="https://www.twitter.com/" target="blank">
 		<img class="iconosrrss" src="Imagenes/twitter.png"></a>
 	</div>
 		<p class="politica">Política de privacidad</p>
