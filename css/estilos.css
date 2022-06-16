@@ -812,11 +812,12 @@ margin: 0px;
 
 .articlequiz {
 	max-width: 460px;
+	width: 100%;
 	margin-left: 0px;
-	margin-right: 40px;
+	margin-right: 0px;
 }
 .articlequiz div {
-	max-width: 200px;
+	max-width: 250px;
 }
 .fotoscheckbox {
 	width: 250px;
