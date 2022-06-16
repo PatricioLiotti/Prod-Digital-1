@@ -563,8 +563,8 @@ form button {
 @media screen and (max-width: 480px) {
 nav.superior ul {display: none;}
 .icon {display: inline;}
-* {margin-left: 10px;
-margin-right: 10px;}
+* {margin-left: 5px;
+margin-right: 5px;}
 section {max-width: 480px;
 width: 100%;}
 
@@ -811,13 +811,14 @@ margin: 0px;
 }
 
 .articlequiz {
-	max-width: 460px;
+	max-width: 480px;
 	width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 }
 .articlequiz div {
-	max-width: 250px;
+	width: 60%;
+	margin-right: 5px;
 }
 .fotoscheckbox {
 	width: 250px;
@@ -831,10 +832,9 @@ margin: 0px;
 	margin-left: 0px;
 	margin-right: 10px;
 	line-height: 25px;
+	width: 40%;
 }
-.hrcheckbox {
-	width: 160px;
-}
+
 .articleresultado {
 	margin-left: 0px;
 	margin-top: 60px;
