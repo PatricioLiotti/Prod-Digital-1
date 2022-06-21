@@ -816,9 +816,10 @@ margin-right: 5px;
 
 .articlepersonajeshome {
 display: inline-block;
-width: 450px;
-margin-left: 60px;
+width: 430px;
+margin: 0px;
 margin-top: 10px;
+padding-left: 60px;
 }
 
 .divpersonajeshome {
