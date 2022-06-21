@@ -104,7 +104,7 @@ h1 {
 #botonhome{
 	height: 50px;
 	width: 110px;
-	margin-left: 35rem;
+	margin-left: 40rem;
 	font-size: 37px;
 	font-family: Verdana, sans-serif;
 	color: black;
@@ -119,6 +119,8 @@ h1 {
 .phome {
 	font-size: 18px;
 	margin-top: 90px;
+	margin-right: 20px;
+	margin-left: 20px;
 	margin-bottom: 70px;
 }
 
@@ -130,9 +132,13 @@ h1 {
 	font-size: 16px;
 	color: blue;
 	text-decoration: underline;
-	display: inline;
+	display: inline-block;
 	font-family: Verdana, sans-serif;
 	margin: 0px;
+}
+
+h3 {
+	margin-left: 30px;
 }
 
 .personajeshome {
@@ -215,7 +221,9 @@ footer {
 
 .articlepersonajeshome {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .articlehome {
@@ -768,7 +776,7 @@ margin-bottom: 30px;
 .articlehome {
 	display: flex;
 	width: 435px;
-	margin-left: 0px;
+	margin-left: 15px;
 }
 
 .fotosfiesta {
@@ -793,8 +801,8 @@ margin-right: 5px;
 
 .phome {
 	margin-top: 40px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .phome p {
@@ -807,17 +815,14 @@ margin-right: 5px;
 }
 
 .articlepersonajeshome {
-display: flex;
-width: 430px;
-margin: 0px;
+display: inline-block;
+width: 450px;
+margin-left: 60px;
+margin-top: 10px;
 }
 
 .divpersonajeshome {
 	width: 200px;
-	display: inline-block;
-}
-
-#divpersonajesblock {
 	display: inline-block;
 }
 
@@ -937,7 +942,7 @@ width: 180px;
 }
 
 #botonhome {
-	margin-left: 145px;
+	margin-left: 165px;
 	margin-bottom: 40px;
 	width: 120px;
 	height: 45px;
