@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="divnavsuperior">
-		<nav class="superior">
+		<nav class="superior" id="navegador">
 			<ul class="menu">
 			<li><a href="Quiz.html">Quiz</a></li>
 			<li><a href="Historia.html">Historia</a></li>
@@ -40,7 +40,6 @@
 			<li><a href="Contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-		<hr class="hrhome">
 	</div>
 	</article>
 	</header>
@@ -100,4 +99,14 @@
   <script src="js/lightbox-plus-jquery.min.js"></script>
 
 </body>
+<script type="text/javascript">
+	function myFunction(){
+		let x = document.getElementById('navegador')
+		if (x.className !== 'superior responsive'){
+			x.className = 'superior responsive'}
+			else { 
+			x.className = 'superior';
+		}
+	}
+</script>
 </html>
