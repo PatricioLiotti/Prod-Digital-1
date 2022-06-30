@@ -187,7 +187,8 @@ footer {
 
 .diviconosrrss{
 	width: 33%;
-	display: inline-block;
+	display: inline;
+	flex-wrap: wrap;
 }
 
 .iconosrrss {
@@ -229,6 +230,7 @@ footer {
 
 .articlepersonajeshome {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-left: 30px;
 	margin-right: 30px;
@@ -248,6 +250,7 @@ footer {
 
 .articlegaleria {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -308,16 +311,17 @@ h4{
 .fotoscheckbox{
 	height: 250px;
 	width: 400px;
-	padding-right: 280px;
+	padding-right: 200px;
 	padding-top: 20px;
 }
 
 .casillas{
-	margin-right: 160px;
+	margin-right: 130px;
 	line-height: 35px;
 }
 .casillas h4 {
-	width: 250px;
+	width: 520px;
+	padding-left: 10px;
 }
 
 .articlequiz{
@@ -437,7 +441,7 @@ font-weight: bold;
 	margin-top: 5rem;
 	margin-left:19rem;
 	background-color: lightgrey;
-	width: 55%;
+	width: 57%;
 	padding-bottom: 1.5rem;
 	padding-right: 20px;
 	border-radius: 20px;
@@ -448,8 +452,9 @@ font-weight: bold;
 .articleresultado h3 {
 font-size: 27px;
 text-align: center;
-margin-left: 10px;
-padding-right: 10px;
+margin-left: 5px;
+padding-right: 5px;
+margin-bottom: 10px;
 }
 
 .articleresultado p {
@@ -459,7 +464,7 @@ padding-right: 10px;
 }
 
 .articleresultado img {
-	padding-top: 3rem;
+	padding-top: 2.5rem;
 }
 
 .divresultado {
@@ -496,12 +501,12 @@ display: flex;
 width: 1000px;
 margin-top: 50px;
 justify-content: space-between;
-margin-left: 250px;
+margin-left: 240px;
 }
 
 .divcontacto {
-	padding-top: 20px;
-	margin-left: 30px;
+	padding-top: 0px;
+	margin-left: 0px;
 }
 
 .divcontacto p {
@@ -511,7 +516,7 @@ margin-left: 250px;
 }
 
 .divcontacto div {
-	padding-bottom: 27px;
+	padding-bottom: 10px;
 }
 
 .divcontacto img {
@@ -520,6 +525,13 @@ margin-left: 250px;
 	margin-right: 0px;
 	margin-left: 30px;
 	padding-bottom: 0px;
+}
+
+#locacion {
+	width: 450px;
+	height: 200px;
+	margin-left: 0px;
+	padding-top: 10px;
 }
 
 .divformulario {
@@ -533,7 +545,9 @@ margin-left: 250px;
 	height: 30px;
 	width: 100%;
 	font-family: Verdana, sans-serif;
+	font-size: 16px;
 	padding-left: 10px;
+	height: 40px;
 }
 
 .form50 {
@@ -570,9 +584,10 @@ textarea {
 	height: 30px;
 	width: 100%;
 	font-family: Verdana, sans-serif;
+	font-size: 16px;
 	padding-left: 10px;
 	padding-top: 10px;
-	padding-bottom: 60px;
+	padding-bottom: 80px;
 	margin-bottom: 20px;
 }
 
@@ -581,9 +596,10 @@ form button {
 	border-radius: 4px;
 	border: none;
 	font-family: Verdana, sans-serif;
+	font-size: 16px;
 	color: white;
-	height: 30px;
-	width: 80px;
+	height: 40px;
+	width: 100px;
 }
 
 
@@ -668,16 +684,27 @@ h1 {
 	font-size: 35px;}
 
 .articleformulario {display: block;
-width: 450px;
-margin-left: 15px;
+width: 100%;
+margin-left: 5px;
 margin-top: 30px;}
 
-.divcontacto {width: 450px;
-margin-left: 30px;
+.divcontacto {width: 100%;
+margin-left: 0px;
 margin-bottom: 20px;}
+
+.divcontacto div {
+	margin-left: 10px;
+}
 
 .divcontacto p {
 	font-size: 18px;}
+
+#locacion {
+	margin-left: 30px;
+	width: 80%;
+	height: 150px;
+	margin-bottom: 30px;
+}
 
 .iconosrrss2 {
 	height: 20px;
@@ -702,7 +729,7 @@ textarea {
 
 footer {
 	margin-top: 60px;
-	width: 480px;
+	width: 100%;
 	margin-left: 0px;}
 
 .divnavinferior {
@@ -737,7 +764,7 @@ margin-right: auto;}
 	font-size: 13px;}
 
 .headerinfo {
-	width: 430px;
+	width: 100%;
 	margin-left: 10px;
 	margin-right: 0px;
 margin-bottom: 30px;
@@ -753,8 +780,13 @@ font-size: 22px;}
 	font-size: 18px;
 }
 
+.sectionhistoria article {
+	width: 100%;
+}
+
 .sectionhistoria p {
 	margin-left: 0px;
+	width: 100%;
 }
 
 #seriemaniacos {
@@ -762,7 +794,7 @@ font-size: 22px;}
 }
 
 .sectionhistoria {
-	width: 450px;
+	width: 100%;
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -770,6 +802,7 @@ font-size: 22px;}
 .sectionhistoria a {
 	font-size: 12px;
 	margin-left: 0px;
+	width: 100%;
 }
 
 .sectionhistoria p {
@@ -783,7 +816,7 @@ font-size: 22px;}
 }
 
 .articleargumento1 {
-	width: 450px;
+	width: 100%;
 }
 
 .articleargumento1 p {
@@ -793,6 +826,7 @@ margin-bottom: 0px;
 
 .divargumento {
 	padding-bottom: 10px;
+	width: 100%;
 }
 
 h2 {
@@ -802,10 +836,10 @@ margin-bottom: 30px;
 }
 
 .articleargumento2 {
-	width: 450px;
+	width: 100%;
 	display: inline-block;
 	margin-top: 40px;
-	margin-left: 25px;
+	margin-left: 15px;
 }
 
 .articleargumento2 img {
@@ -820,6 +854,7 @@ margin-bottom: 30px;
 	width: 45%;
 	margin-bottom: 5px;
 }
+
 #kiss {
 	margin-left: 85px;
 }
@@ -829,7 +864,7 @@ margin-bottom: 30px;
 
 .articlehome {
 	display: flex;
-	width: 435px;
+	width: 100%;
 	margin-left: 15px;
 }
 
@@ -854,7 +889,8 @@ margin-right: 5px;
 }
 
 .phome {
-	margin-top: 40px;
+	width: 100%;
+	margin-top: 20px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -870,7 +906,7 @@ margin-right: 5px;
 
 .articlepersonajeshome {
 display: inline-block;
-width: 430px;
+width: 405px;
 margin: 0px;
 margin-top: 10px;
 padding-left: 60px;
@@ -882,32 +918,36 @@ padding-left: 60px;
 }
 
 .articlequiz {
+	display: inline-block;
 	max-width: 480px;
 	width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 }
 .articlequiz div {
-	width: 60%;
+	width: 100%;
 	margin-right: 5px;
 }
 .fotoscheckbox {
-	width: 230px;
-	height: 160px;
-	margin-left: 0px;
-	margin-top: 40px;
+	width: 300px;
+	height: 180px;
+	margin-left: 60px;
+	margin-top: 0px;
 	padding-right: 0px;
+	padding-top: 10px;
 }
 
 .casillas {
 	margin-left: 0px;
 	margin-right: 10px;
 	line-height: 25px;
-	width: 40%;
+	width: 100%;
 }
 
 .casillas h4 {
-	width: 210px;
+	width: 90%;
+	font-size: 18px;
+	padding-left: 5px;
 }
 
 .articleresultado {
@@ -997,15 +1037,15 @@ width: 180px;
 }
 
 #botonresultado {
-	margin-left:165px;
-	margin-top: 0px;
+	margin-left:155px;
+	margin-top: 20px;
 	font-size: 27px;
 	width: 150px;
 	height: 50px;
 }
 
 #botonhome {
-	margin-left: 165px;
+	margin-left: 180px;
 	margin-bottom: 40px;
 	width: 120px;
 	height: 45px;
